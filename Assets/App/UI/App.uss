@@ -1,0 +1,75 @@
+.app { position: absolute; left: 0; right: 0; top: 0; bottom: 0; color: rgb(30,43,24); -unity-font-definition: url("../Art/Fonts/Montserrat-Medium.ttf"); font-size: 15px; }
+.menu-background { background-color: white; }
+.safe { position: absolute; left: 0; right: 0; top: 0; bottom: 0; padding: 16px 20px; }
+.row { flex-direction: row; align-items: center; }
+.spaced { justify-content: space-between; }
+.header { height: 46px; flex-shrink: 0; }
+.brand, .hero, .card-title, .mode-title, .unity-button, .hold-label { -unity-font-definition: url("../Art/Fonts/Montserrat-Bold.ttf"); -unity-font-style: normal; }
+.brand { font-size: 21px; letter-spacing: 1px; }
+.tag { background-color: rgb(232,247,218); border-radius: 8px; padding: 8px 12px; color: rgb(61,111,27); }
+.unity-button { min-height: 44px; margin: 0; padding: 8px 16px; border-width: 0; border-radius: 12px; background-image: none; background-color: rgb(242,246,238); color: rgb(30,43,24); font-size: 15px; }
+.unity-button:hover { background-color: rgb(226,239,214); }
+.unity-button:active { background-color: rgb(210,233,189); }
+.unity-button:disabled { opacity: .4; }
+.primary { background-color: rgb(141,215,58); }
+.primary:hover { background-color: rgb(171,234,106); }
+.white { background-color: white; }
+.menu-content { flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-between; padding: 14px 0; }
+.intro { width: 52%; padding-right: 24px; }
+.eyebrow { font-size: 11px; letter-spacing: 2px; color: rgb(91,105,83); margin-bottom: 10px; white-space: normal; }
+.hero { font-size: 48px; white-space: normal; margin: 0 0 12px; }
+.description { font-size: 15px; color: rgb(78,93,70); white-space: normal; margin: 0 0 10px; }
+.air-mark { height: 85px; width: 86%; }
+.card { padding: 18px; border-width: 1px; border-color: rgb(225,232,219); border-radius: 20px; background-color: white; }
+.start-card { width: 40%; max-width: 380px; }
+.card-title { font-size: 23px; margin-bottom: 8px; white-space: normal; }
+.mode-title { font-size: 15px; margin-top: 12px; margin-bottom: 4px; }
+.body { font-size: 14px; color: rgb(78,93,70); white-space: normal; }
+.start { margin-top: 18px; min-height: 50px; font-size: 17px; }
+.hint { font-size: 12px; color: rgb(91,105,83); margin: 8px 0 0; white-space: normal; }
+.menu-footer { font-size: 10px; letter-spacing: 1px; color: rgb(91,105,83); }
+.portrait .menu-content { flex-direction: column; align-items: stretch; justify-content: center; }
+.portrait .intro { width: 100%; padding: 10px 0 14px; }
+.portrait .hero { font-size: 45px; }
+.portrait .air-mark { height: 85px; width: 80%; }
+.portrait .start-card { width: 100%; max-width: none; }
+.draw-pad { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.floating { background-color: rgba(255,255,255,.94); border-radius: 10px; padding: 8px 12px; }
+.info { position: absolute; left: 20px; top: 76px; max-width: 360px; }
+.status { font-size: 13px; white-space: normal; }
+.stroke-count { font-size: 12px; color: rgb(30,43,24); background-color: rgba(255,255,255,.9); align-self: flex-start; margin-top: 4px; padding: 4px 8px; border-radius: 7px; }
+.tools { position: absolute; right: 20px; bottom: 16px; width: 360px; padding: 12px; }
+.mode { flex-grow: 1; margin: 0 3px; border-width: 1px; border-color: rgb(225,232,219); }
+.selected { background-color: rgb(232,247,218); border-color: rgb(141,215,58); color: rgb(48,88,21); }
+.tool-row { margin-top: 8px; }
+.tool-row .unity-button { flex-grow: 1; padding-left: 6px; padding-right: 6px; margin: 0 3px; font-size: 13px; }
+.slider { margin: 8px 4px 0; min-height: 28px; }
+.unity-base-field__label { min-width: 76px; font-size: 13px; color: rgb(78,93,70); }
+.unity-base-slider__tracker { background-color: rgb(225,232,219); border-width: 0; height: 4px; }
+.unity-base-slider__dragger { background-color: rgb(141,215,58); border-width: 0; border-radius: 10px; width: 20px; height: 20px; margin-top: -8px; }
+.reticle { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 18px; height: 18px; border-width: 3px; border-radius: 9px; background-color: rgba(255,255,255,.5); opacity: .4; }
+.reticle.ready { opacity: 1; }
+.air-hold { position: absolute; left: 32px; bottom: 24px; width: 100px; height: 100px; border-radius: 50px; border-width: 6px; border-color: rgb(232,247,218); background-color: rgb(141,215,58); justify-content: center; align-items: center; }
+.air-hold:active { background-color: rgb(171,234,106); }
+.hold-label { font-size: 11px; -unity-text-align: middle-center; white-space: normal; }
+.portrait .tools { left: 12px; right: 12px; bottom: 12px; width: auto; }
+.portrait .info { left: 12px; right: 12px; max-width: none; }
+.portrait .brand.floating { font-size: 14px; padding: 6px; }
+.portrait .header .unity-button { padding: 8px 12px; font-size: 13px; }
+.portrait .air-hold { left: 50%; translate: -50% 0; bottom: 244px; width: 84px; height: 84px; border-radius: 42px; }
+.palette { position: absolute; right: 20px; bottom: 16px; width: 340px; }
+.palette .card-title { font-size: 20px; }
+.small { min-height: 38px; font-size: 13px; padding: 6px 12px; }
+.color-field { height: 144px; margin-top: 12px; border-radius: 8px; overflow: hidden; }
+.color-marker { position: absolute; width: 18px; height: 18px; translate: -50% -50%; border-width: 3px; border-color: white; border-radius: 9px; background-color: rgba(0,0,0,0); }
+.swatch { width: 44px; height: 34px; border-radius: 8px; margin-top: 8px; border-width: 1px; border-color: rgb(225,232,219); }
+.hex { width: 130px; height: 36px; margin-top: 8px; font-size: 16px; }
+.portrait .palette { left: 12px; right: 12px; bottom: 12px; width: auto; }
+.modal { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color: rgba(30,43,24,.22); align-items: center; justify-content: center; }
+.dialog { width: 340px; max-width: 95%; }
+.dialog .unity-button { margin-top: 12px; }
+
+.app .slider .unity-base-slider__tracker { background-color: rgb(225,232,219); border-width: 0; height: 4px; border-radius: 2px; }
+.app .slider .unity-base-slider__dragger { background-color: rgb(141,215,58); border-width: 0; border-radius: 10px; width: 20px; height: 20px; margin-top: -8px; }
+.app .hex .unity-base-text-field__input, .app .hex .unity-text-field__input { background-color: rgb(242,246,238); color: rgb(30,43,24); border-width: 0; border-radius: 8px; padding: 5px 10px; }
+.air-hold.tracking-paused { opacity: .55; }

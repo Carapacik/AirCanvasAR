@@ -1,0 +1,8 @@
+AirCanvasAR icon source assets
+Generated with the built-in image_gen tool. Emblem.png preserves the generated alpha channel. LauncherIcons.cs builds platform sizes and composites the launcher artwork.
+
+Emblem prompt:
+Use case: logo-brand. Create a polished original foreground emblem for the Android app AirCanvasAR, an augmented reality drawing app. Square canvas, genuinely transparent background. One single bold flowing brush ribbon forms a friendly abstract capital A, with a sweeping curved crossbar suggesting a stroke drawn freely in three-dimensional air. Minimal cartoon/vector-like silhouette, rounded smooth ends, balanced and highly legible at 48px. Solid very dark forest green #244329 throughout, no shading, no gradients, no white backing, no tile, no shadows, no text or wordmark, no decorative sparkles or extra objects. Center the complete emblem with ample transparent margins (about 22% each edge); nothing touches edges. It will be layered on a very light fresh green background and used for monochrome and adaptive app icons.
+
+Background edit prompt (reference: the existing MathPiratesAR icon background):
+Edit this app-icon BACKGROUND only. Preserve the exact simple curved diagonal two-region composition, square edge-to-edge framing, clean smooth finish and lack of symbols. Make the entire palette much lighter, fresh pastel lime and pale leaf green: highlights around #E5FFC8, midtones around #C9F299, deepest region no darker than #98CF68. Keep gentle tonal variation of the original, but absolutely no dark forest-green areas. This is the empty background layer for the AirCanvasAR Android icon, later overlaid with a dark green emblem. No text, no logo, no white inset, no transparency, no rounded tile edges, no mockup.

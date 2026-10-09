@@ -6,17 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: f2f396493109b2b4191eb0d0e760c9fc
+    path: Assets/App/Scenes/Menu.unity
+    guid: ea2387b9b9273024c8b5c729fc402af5
   - enabled: 1
-    path: Assets/Scenes/DrawScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/MapScene.unity
-    guid: 4734c28ab2bebc4418eeb75afbe84852
+    path: Assets/App/Scenes/Canvas.unity
+    guid: 89370f7526ce1fb419ed38e8c2e72771
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 16382bf1b36fa2a4cae12f326db1bfce, type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c1a6f2603d4d5f049b26e2fe672797f6, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9c957ddc2d162494e86945d12e7c058e, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ec9a5ab05a2583f4991ecfc4e1cada15, type: 2}
-  m_UseUCBPForAssetBundles: 0
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a8995367542786d47bdd681209b19676, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 355ab65cc955e34459224e7bab9c4ea0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e39659e79850929499c9f00db8c81440, type: 2}
